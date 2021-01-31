@@ -1,0 +1,12 @@
+On MacBook Pro i7 2.8 GHz 16 GB
+
+500 open connections / 30s / 700ms delay
+direct: 699 req/sec  705ms
+zuul:    28 req/sec 1080ms
+scg:    693 req/sec  708ms
+
+
+500 open connections / 30s / 50ms delay
+direct: 7390 req/sec  118ms
+zuul:    375 req/sec 1180ms
+scg:    2706 req/sec  200ms
